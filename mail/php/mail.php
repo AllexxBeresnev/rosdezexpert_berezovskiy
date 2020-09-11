@@ -8,9 +8,9 @@
 	use PHPMailer\PHPMailer\PHPMailer;
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-		require_once($_SERVER['DOCUMENT_ROOT'] . '/berdsk/mail/phpmailer/phpmailer.php');
-		require_once($_SERVER['DOCUMENT_ROOT'] . '/berdsk/mail/php/config.php');
-		require_once($_SERVER['DOCUMENT_ROOT'] . '/berdsk/mail/php/valid.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/berezovskiy/mail/phpmailer/phpmailer.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/berezovskiy/mail/php/config.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/berezovskiy/mail/php/valid.php');
 
 		if(defined('HOST') && HOST != '') {
 			$mail = new PHPMailer;

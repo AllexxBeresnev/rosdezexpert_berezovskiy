@@ -31,7 +31,7 @@
 
 	// *** SMTP *** //
 
-		require_once($_SERVER['DOCUMENT_ROOT'] . '/berdsk/mail/phpmailer/smtp.php');
+		require_once($_SERVER['DOCUMENT_ROOT'] . '/berezovskiy/mail/phpmailer/smtp.php');
 		const HOST = 'ssl://smtp.yandex.ru';
 		const LOGIN = 'rosdezexpert-berdsk@yandex.ru';
 		const PASS = 'Master123';
@@ -46,7 +46,7 @@
 	const CATCHER = 'rosdezexpert-berdsk@yandex.ru';
 	
 	// Тема письма
-	const SUBJECT = 'Заявка с сайта Бердск РосДэзЭксперт';
+	const SUBJECT = 'Заявка с сайта Березовский РосДэзЭксперт';
 	
 	// Кодировка
   const CHARSET = 'UTF-8';
